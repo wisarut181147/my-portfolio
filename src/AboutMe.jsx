@@ -1,13 +1,13 @@
-function Hero() {
+function AboutMe() {
   return (
     <div
-      id="home"
+      id="about-me"
       style={{
-        alignItems: "center",
+        minHeight: "100vh",
         display: "flex",
+        alignItems: "center",
         justifyContent: "space-between",
-        padding: "0px 120px",
-        minHeight: "calc(100vh - 80px)",
+        padding: "60px 120px",
       }}
     >
       <div style={{ textAlign: "left" }}>
@@ -16,11 +16,12 @@ function Hero() {
         <p>กำลังมองหาตำแหน่ง Internship ครับ</p>
       </div>
       <img
-        src="/mypic.jpg"
+        src="/cat.jpg"
         alt="Profile Picture"
         style={{ width: "320px", height: "500px", objectFit: "cover" }}
       />
     </div>
   );
 }
-export default Hero;
+
+export default AboutMe;
